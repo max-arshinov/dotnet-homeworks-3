@@ -1,6 +1,6 @@
 services:
   structurizr:
-    container_name: structurizr
+    container_name: course3
     image: structurizr/lite
     volumes:
       - ./workspace:/usr/local/structurizr

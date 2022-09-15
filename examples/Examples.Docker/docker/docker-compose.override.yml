@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  web-app1:
+    image: web-app1
+    build:
+      context: ../ # only needed if paths in the dockerfile are relative to its folder
+      dockerfile: ./WebApplication1/Dockerfile
+    ports:
+      - "8081:8081"
+  web-app2:
+    image: web-app2
+    build:
+      context: ../ # only needed if paths in the dockerfile are relative to its folder
+      dockerfile: ./WebApplication2/Dockerfile
+    ports:
+      - "8082:8082"        

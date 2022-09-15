@@ -1,0 +1,39 @@
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    restart: unless-stopped
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Str0ngP@ssw0rd!
+    volumes:
+      - sql-server-db:/db:rw
+  postgres-db:
+    image: postgres:14.1-alpine
+    restart: unless-stopped
+    env_file:
+      - postgres.env
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres-db:/var/lib/postgresql/data:rw
+
+  web-app1:
+    restart: unless-stopped
+    environment:
+      - ASPNETCORE_URLS=http://+:8081
+    env_file:
+      - postgres.env
+    depends_on:      
+      - postgres-db # ignored in swarm mode!!! 
+  web-app2:
+    restart: unless-stopped
+    environment:
+      - ASPNETCORE_URLS=http://+:8082
+#    depends_on:
+#      - sql-server # ignored in swarm mode!!! 
+        
+volumes:
+  postgres-db:
+  sql-server-db:   
