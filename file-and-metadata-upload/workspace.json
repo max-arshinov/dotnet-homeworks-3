@@ -1,0 +1,431 @@
+{
+  "id" : 1,
+  "name" : "File and metadata upload",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-10-30T12:04:01Z",
+  "lastModifiedAgent" : "structurizr-web/2788/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJGaWxlIGFuZCBtZXRhZGF0YSB1cGxvYWQiewogICAgIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoKICAgIG1vZGVsIHsKICAgICAgICBzeXN0ZW0gPSBzb2Z0d2FyZXN5c3RlbSAiRmlsZS9NZXRhZGF0YSBTdG9yYWdlIiB7CiAgICAgICAgICAgIGRiID0gY29udGFpbmVyICJTY2hlbWFsZXNzIERhdGFiYXNlIiAiIiBNb25nb0RCIAogICAgICAgICAgICBjYWNoZSA9IGNvbnRhaW5lciBDYWNoZSAiIiAiUmVkaXMiCiAgICAgICAgICAgIHF1ZXVlID0gY29udGFpbmVyIFF1ZXVlICIiICJSYWJiaXRNUSIgICAgICAgIAogICAgICAgICAgICBzMyA9IGNvbnRhaW5lciBTMyB7CiAgICAgICAgICAgICAgICB0ZW1wQnVja2V0ID0gY29tcG9uZW50ICJUZW1wIEJ1Y2tldCIKICAgICAgICAgICAgICAgIHBlcnNpc3RlbnRCdWNrZXQgPSBjb21wb25lbnQgIlBlcnNpc3RlbnQgQnVja2V0IgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB0ZW1wQnVja2V0IC0+IHBlcnNpc3RlbnRCdWNrZXQKICAgICAgICAgICAgfQogICAgICAgICAgICBhcGkgPSBjb250YWluZXIgQVBJIHsKICAgICAgICAgICAgICAgIHVwbG9hZEZpbGUgPSBjb21wb25lbnQgIlVwbG9hZCBGaWxlIgogICAgICAgICAgICAgICAgdXBsb2FkRmlsZSAtPiBxdWV1ZSAiRmlsZSBVcGxvYWRlZCIgTWVzc2FnZQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBzYXZlTWV0YWRhdGEgPSBjb21wb25lbnQgIlNhdmUgTWV0YWRhdGEiCiAgICAgICAgICAgICAgICBzYXZlTWV0YWRhdGEgLT4gZGIgIlNhdmVzIE1ldGFkYXRhIgogICAgICAgICAgICAgICAgc2F2ZU1ldGFkYXRhIC0+IGNhY2hlICJTYXZlcyBNZXRhZGF0YSBUbyBDYWNoZSBJZiBGaWxlIElzIE5vdCBBdmFpbGFibGUiICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9ICAgICAgIAogICAgICAgICAgICBiYWNrZ3JvdW5kID0gY29udGFpbmVyIEJhY2tncm91bmQgewogICAgICAgICAgICAgICAgY29uc3VtZXIgPSBjb21wb25lbnQgIkNvbnN1bWVyIgogICAgICAgICAgICAgICAgcXVldWUgLT4gY29uc3VtZXIgIkZpbGUgVXBsb2FkZWQiIE1lc3NzYWdlCiAgICAgICAgICAgICAgICBjb25zdW1lciAtPiBkYiAiU2F2ZXMgRmlsZSBJZCIKICAgICAgICAgICAgICAgIGNvbnN1bWVyIC0+IHMzLnRlbXBCdWNrZXQgIk1vdmVzIFVwbG9hZGVkIEZpbGUgRnJvbSBUaGUgVGVtcCBUbyBQZXJzaXN0ZW50IEJ1Y2tldCIKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgam9iID0gY29tcG9uZW50ICJKb2IiCiAgICAgICAgICAgICAgICBqb2IgLT4gY2FjaGUgIkNoZWNrcyBVcGxvYWRlZCBGaWxlIElkIiAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9ICAgICAgICAgICAgCiAgICAgICAgICAgIHNwYSA9IGNvbnRhaW5lciBTUEEgewogICAgICAgICAgICAgICAgdXBsb2FkRmlsZUNvbXBvbmVudCA9IGNvbXBvbmVudCAiVXBsb2FkIEZpbGUiCiAgICAgICAgICAgICAgICB1cGxvYWRGaWxlQ29tcG9uZW50IC0+IGFwaS51cGxvYWRGaWxlICJVcGxvYWQgRmlsZSIKICAgICAgICAgICAgICAgIHVwbG9hZEZpbGVDb21wb25lbnQgLT4gYXBpLnNhdmVNZXRhZGF0YSAiU2F2ZSBGaWxlIE1ldGFkYXRhIgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgCiAgICB2aWV3cyB7CiAgICAgICAgdGhlbWUgZGVmYXVsdAogICAgICAgIGR5bmFtaWMgc3lzdGVtLnNwYSB7CiAgICAgICAgICAgIGF1dG9sYXlvdXQKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgc3lzdGVtLnNwYS51cGxvYWRGaWxlQ29tcG9uZW50IC0+IHN5c3RlbS5hcGkudXBsb2FkRmlsZSAiU2VuZHMgVXBsb2FkIEZpbGUgUmVxdWVzdCIKICAgICAgICAgICAgICAgIHN5c3RlbS5hcGkudXBsb2FkRmlsZSAtPiBzeXN0ZW0uczMudGVtcEJ1Y2tldCAiU2F2ZXMgRmlsZSBUbyBUaGUgVGVtcCBCdWNrZXQiCiAgICAgICAgICAgICAgICBzeXN0ZW0uYXBpLnVwbG9hZEZpbGUgLT4gc3lzdGVtLmNhY2hlICJTYXZlcyBVcGxvYWRlZCBGaWxlIElkIgogICAgICAgICAgICAgICAgc3lzdGVtLmFwaS51cGxvYWRGaWxlIC0+IHN5c3RlbS5xdWV1ZSAiU2VuZHMgXCJGaWxlIFVwbG9hZGVkXCIgTWVzc2FnZSBUbyBUaGUgIFF1ZXVlIgogICAgICAgICAgICAgICAgc3lzdGVtLnF1ZXVlIC0+IHN5c3RlbS5iYWNrZ3JvdW5kLmNvbnN1bWVyICJSZWNlaXZlcyBcIkZpbGUgVXBsb2FkZWRcIiBNZXNzYWdlIEZyb20gVGhlICBRdWV1ZSIKICAgICAgICAgICAgICAgIHN5c3RlbS5iYWNrZ3JvdW5kLmNvbnN1bWVyIC0+IHN5c3RlbS5kYiAiU2F2ZXMgTWV0YWRhdGEgSWYgTm90IFlldCBTYXZlZCIKICAgICAgICAgICAgfQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzeXN0ZW0uc3BhLnVwbG9hZEZpbGVDb21wb25lbnQgLT4gc3lzdGVtLmFwaS5zYXZlTWV0YWRhdGEgIlNlbmRzIFVwbG9hZCBNZXRhZGF0YSBSZXF1ZXN0IgogICAgICAgICAgICAgICAgc3lzdGVtLmFwaS5zYXZlTWV0YWRhdGEgLT4gc3lzdGVtLmNhY2hlICJDaGVja3MgRmlsZSBJZCBJbiBDYWNoZSIKICAgICAgICAgICAgICAgIHN5c3RlbS5hcGkuc2F2ZU1ldGFkYXRhIC0+IHN5c3RlbS5kYiAiU2F2ZXMgTWV0YWRhdGEgVG8gREIgSWYgVXBsb2FkZWQgRmlsZSBJZCBJcyBBdmFpbGFibGUgSW4gQ2FjaGUiCiAgICAgICAgICAgIH0gICAgICAgICAgCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHN5c3RlbS5iYWNrZ3JvdW5kLmpvYiAtPiBzeXN0ZW0uczMudGVtcEJ1Y2tldCAiTW92ZXMgVXBsb2FkZWQgRmlsZSBGcm9tIFRoZSBUZW1wIFRvIFBlcnNpc3RlbnQgQnVja2V0IElmIE1ldGFkYXRhIElzIEFscmVhZHkgU2F2ZWQiCiAgICAgICAgICAgICAgICBzeXN0ZW0uczMudGVtcEJ1Y2tldCAtPiBzeXN0ZW0uczMucGVyc2lzdGVudEJ1Y2tldCAiTW92ZXMgVXBsb2FkZWQgRmlsZSBGcm9tIFRoZSBUZW1wIFRvIFBlcnNpc3RlbnQgQnVja2V0IElmIE1ldGFkYXRhIElzIEFscmVhZHkgU2F2ZWQiCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgc3R5bGVzIHsKICAgICAgICB9CiAgICB9Cn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System",
+      "name" : "File/Metadata Storage",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "API",
+        "relationships" : [ {
+          "id" : "17",
+          "sourceId" : "9",
+          "destinationId" : "3",
+          "description" : "Saves Metadata To Cache If File Is Not Available",
+          "linkedRelationshipId" : "16"
+        }, {
+          "id" : "42",
+          "sourceId" : "9",
+          "destinationId" : "5",
+          "description" : "Saves File To The Temp Bucket",
+          "linkedRelationshipId" : "39"
+        }, {
+          "id" : "15",
+          "sourceId" : "9",
+          "destinationId" : "2",
+          "description" : "Saves Metadata",
+          "linkedRelationshipId" : "14"
+        }, {
+          "id" : "12",
+          "sourceId" : "9",
+          "destinationId" : "4",
+          "description" : "File Uploaded",
+          "technology" : "Message",
+          "linkedRelationshipId" : "11"
+        }, {
+          "id" : "41",
+          "sourceId" : "9",
+          "destinationId" : "6",
+          "description" : "Saves File To The Temp Bucket",
+          "linkedRelationshipId" : "39"
+        } ],
+        "components" : [ {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Upload File",
+          "relationships" : [ {
+            "id" : "43",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "3",
+            "description" : "Saves Uploaded File Id"
+          }, {
+            "id" : "39",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "6",
+            "description" : "Saves File To The Temp Bucket"
+          }, {
+            "id" : "11",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "4",
+            "description" : "File Uploaded",
+            "technology" : "Message"
+          }, {
+            "id" : "40",
+            "sourceId" : "10",
+            "destinationId" : "5",
+            "description" : "Saves File To The Temp Bucket",
+            "linkedRelationshipId" : "39"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "name" : "Save Metadata",
+          "relationships" : [ {
+            "id" : "16",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "3",
+            "description" : "Saves Metadata To Cache If File Is Not Available"
+          }, {
+            "id" : "14",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "2",
+            "description" : "Saves Metadata"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "name" : "Queue",
+        "relationships" : [ {
+          "id" : "20",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "19",
+          "description" : "File Uploaded",
+          "technology" : "Messsage"
+        }, {
+          "id" : "21",
+          "sourceId" : "4",
+          "destinationId" : "18",
+          "description" : "File Uploaded",
+          "technology" : "Messsage",
+          "linkedRelationshipId" : "20"
+        } ],
+        "technology" : "RabbitMQ"
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "name" : "Cache",
+        "technology" : "Redis"
+      }, {
+        "id" : "31",
+        "tags" : "Element,Container",
+        "name" : "SPA",
+        "relationships" : [ {
+          "id" : "38",
+          "sourceId" : "31",
+          "destinationId" : "13",
+          "description" : "Save File Metadata",
+          "linkedRelationshipId" : "37"
+        }, {
+          "id" : "35",
+          "sourceId" : "31",
+          "destinationId" : "10",
+          "description" : "Upload File",
+          "linkedRelationshipId" : "33"
+        }, {
+          "id" : "36",
+          "sourceId" : "31",
+          "destinationId" : "9",
+          "description" : "Upload File",
+          "linkedRelationshipId" : "33"
+        } ],
+        "components" : [ {
+          "id" : "32",
+          "tags" : "Element,Component",
+          "name" : "Upload File",
+          "relationships" : [ {
+            "id" : "37",
+            "tags" : "Relationship",
+            "sourceId" : "32",
+            "destinationId" : "13",
+            "description" : "Save File Metadata"
+          }, {
+            "id" : "33",
+            "tags" : "Relationship",
+            "sourceId" : "32",
+            "destinationId" : "10",
+            "description" : "Upload File"
+          }, {
+            "id" : "34",
+            "sourceId" : "32",
+            "destinationId" : "9",
+            "description" : "Upload File",
+            "linkedRelationshipId" : "33"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "name" : "S3",
+        "components" : [ {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "name" : "Persistent Bucket",
+          "size" : 0
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "name" : "Temp Bucket",
+          "relationships" : [ {
+            "id" : "8",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "7"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container",
+        "name" : "Background",
+        "relationships" : [ {
+          "id" : "23",
+          "sourceId" : "18",
+          "destinationId" : "2",
+          "description" : "Saves File Id",
+          "linkedRelationshipId" : "22"
+        }, {
+          "id" : "26",
+          "sourceId" : "18",
+          "destinationId" : "6",
+          "description" : "Moves Uploaded File From The Temp To Persistent Bucket",
+          "linkedRelationshipId" : "24"
+        }, {
+          "id" : "27",
+          "sourceId" : "18",
+          "destinationId" : "5",
+          "description" : "Moves Uploaded File From The Temp To Persistent Bucket",
+          "linkedRelationshipId" : "24"
+        }, {
+          "id" : "30",
+          "sourceId" : "18",
+          "destinationId" : "3",
+          "description" : "Checks Uploaded File Id",
+          "linkedRelationshipId" : "29"
+        } ],
+        "components" : [ {
+          "id" : "19",
+          "tags" : "Element,Component",
+          "name" : "Consumer",
+          "relationships" : [ {
+            "id" : "25",
+            "sourceId" : "19",
+            "destinationId" : "5",
+            "description" : "Moves Uploaded File From The Temp To Persistent Bucket",
+            "linkedRelationshipId" : "24"
+          }, {
+            "id" : "22",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "2",
+            "description" : "Saves File Id"
+          }, {
+            "id" : "24",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "6",
+            "description" : "Moves Uploaded File From The Temp To Persistent Bucket"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "28",
+          "tags" : "Element,Component",
+          "name" : "Job",
+          "relationships" : [ {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "28",
+            "destinationId" : "6",
+            "description" : "Moves Uploaded File From The Temp To Persistent Bucket If Metadata Is Already Saved"
+          }, {
+            "id" : "29",
+            "tags" : "Relationship",
+            "sourceId" : "28",
+            "destinationId" : "3",
+            "description" : "Checks Uploaded File Id"
+          }, {
+            "id" : "45",
+            "sourceId" : "28",
+            "destinationId" : "5",
+            "description" : "Moves Uploaded File From The Temp To Persistent Bucket If Metadata Is Already Saved",
+            "linkedRelationshipId" : "44"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "2",
+        "tags" : "Element,Container",
+        "name" : "Schemaless Database",
+        "technology" : "MongoDB"
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "dynamicViews" : [ {
+      "key" : "FileMetadataStorage-SPA-Dynamic-001",
+      "order" : 1,
+      "paperSize" : "A3_Portrait",
+      "dimensions" : {
+        "width" : 2133,
+        "height" : 3958
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "elementId" : "31",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "44",
+        "description" : "Moves Uploaded File From The Temp To Persistent Bucket If Metadata Is Already Saved",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "37",
+        "description" : "Sends Upload Metadata Request",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "33",
+        "description" : "Sends Upload File Request",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "8",
+        "description" : "Moves Uploaded File From The Temp To Persistent Bucket If Metadata Is Already Saved",
+        "order" : "2",
+        "response" : false
+      }, {
+        "id" : "39",
+        "description" : "Saves File To The Temp Bucket",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1849,
+          "y" : 1539
+        }, {
+          "x" : 1878,
+          "y" : 2035
+        }, {
+          "x" : 1878,
+          "y" : 2543
+        } ]
+      }, {
+        "id" : "16",
+        "description" : "Checks File Id In Cache",
+        "order" : "2",
+        "response" : false
+      }, {
+        "id" : "43",
+        "description" : "Saves Uploaded File Id",
+        "order" : "3",
+        "response" : false
+      }, {
+        "id" : "14",
+        "description" : "Saves Metadata To DB If Uploaded File Id Is Available In Cache",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 349,
+          "y" : 1539
+        }, {
+          "x" : 320,
+          "y" : 2035
+        }, {
+          "x" : 320,
+          "y" : 2543
+        } ]
+      }, {
+        "id" : "11",
+        "description" : "Sends \"File Uploaded\" Message To The  Queue",
+        "order" : "4",
+        "response" : false
+      }, {
+        "id" : "20",
+        "description" : "Receives \"File Uploaded\" Message From The  Queue",
+        "order" : "5",
+        "response" : false
+      }, {
+        "id" : "22",
+        "description" : "Saves Metadata If Not Yet Saved",
+        "order" : "6",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "2",
+        "x" : 161,
+        "y" : 2739
+      }, {
+        "id" : "13",
+        "x" : 499,
+        "y" : 939
+      }, {
+        "id" : "3",
+        "x" : 499,
+        "y" : 1539
+      }, {
+        "id" : "4",
+        "x" : 1249,
+        "y" : 1539
+      }, {
+        "id" : "6",
+        "x" : 1249,
+        "y" : 2739
+      }, {
+        "id" : "28",
+        "x" : 1249,
+        "y" : 2139
+      }, {
+        "id" : "7",
+        "x" : 1249,
+        "y" : 3339
+      }, {
+        "id" : "19",
+        "x" : 499,
+        "y" : 2139
+      }, {
+        "id" : "32",
+        "x" : 874,
+        "y" : 339
+      }, {
+        "id" : "10",
+        "x" : 1249,
+        "y" : 939
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "FileMetadataStorage-SPA-Dynamic-001"
+    }
+  }
+}

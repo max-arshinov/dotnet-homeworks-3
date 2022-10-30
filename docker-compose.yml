@@ -6,4 +6,12 @@ services:
       - ./workspace:/usr/local/structurizr
     ports:
       - "8090:8080"
-    
+        
+  file-and-metadata:
+    container_name: file-and-metadata-upload
+    image: structurizr/lite
+    volumes:
+      - ./file-and-metadata-upload:/usr/local/structurizr
+    ports:
+      - "8091:8080"
+        
