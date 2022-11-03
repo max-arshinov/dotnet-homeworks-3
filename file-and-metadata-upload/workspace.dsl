@@ -31,7 +31,7 @@ workspace "File and metadata upload"{
                 uploadFileComponent = component "Upload File"
                 uploadFileComponent -> api.uploadFile
                 uploadFileComponent -> api.saveMetadata
-                signalR -> spa.uploadFileComponent
+                api.signalR -> spa.uploadFileComponent
             }
         }
     }
@@ -62,8 +62,8 @@ workspace "File and metadata upload"{
                 system.background.consumer -> system.s3.tempBucket "Sends Move \"File From The Temp To Persistent Bucket\" Request"
                 system.s3.tempBucket -> system.s3.persistentBucket "Moves Uploaded File From The Temp To Persistent Bucket"
                 system.background.consumer -> system.db "Saves Metadata And File Id To DB"
-                system.background.consumer -> queue "Sends \"File Uploaded\" Event"
-                queue -> system.api.signalR "Receives \"File Uploaded\" Event"
+                system.background.consumer -> system.queue "Sends \"File Uploaded\" Event"
+                system.queue -> system.api.signalR "Receives \"File Uploaded\" Event"
                 system.api.signalR -> system.spa.uploadFileComponent "Notifies Frontend That Upload Is Finished"
             }
         } 
